@@ -140,8 +140,6 @@ header a {
 }
 .categoriesMainSection > div {
   background-color: white;
-  border-radius: 5px;
-  padding: 0px 5px;
 }
 .categoriesContentContainer {
   overflow-x: scroll;
@@ -154,6 +152,9 @@ header a {
 .categoriesContentContainer > div:hover {
   color: #e46d29;
   border: 1px solid #e46d29;
+}
+.categoriesContentContainer div a {
+  color: #e46d29 !important;
 }
 
 .storeForYouHeading {
