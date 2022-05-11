@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Page</title>
+
+    <!-- //// Bootstrap CSS //// -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <!-- //// CSS //// -->
+    <link rel="stylesheet" href="./style/style.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- ///// Navbar ///// -->
+
+    <header>
+        <section class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand font-weight-bold navbarLogo" href="#">Website Logo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mr-4">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Profile</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-expanded="false">
+                                Store
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item navbarDropdownOptions" href="#">Levis</a>
+                                <a class="dropdown-item navbarDropdownOptions" href="#">Rad</a>
+                                <!-- <div class="dropdown-divider"></div> -->
+                                <a class="dropdown-item navbarDropdownOptions" href="#">TeeFit</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-expanded="false">
+                                Categories
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item navbarDropdownOptions" href="#">Men's Fashion</a>
+                                <a class="dropdown-item navbarDropdownOptions" href="#">Women's Fashion</a>
+                                <!-- <div class="dropdown-divider"></div> -->
+                                <a class="dropdown-item navbarDropdownOptions" href="#">Kid's Fashion</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- <form class="form-inline my-2 my-lg-0"> -->
+                    <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+                    <button class="btn navbarButtons">Log In</button>
+                    <button class="btn navbarButtons">Sign Up</button>
+                    <!-- </form> -->
+                </div>
+            </nav>
+        </section>
+        <section class="container-fluid navbarSearchSection">
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2 searchInputField" size="40" type="search" placeholder="Search"
+                    aria-label="Search">
+                <button class="btn navbarButtons navbarSearchBtn">Search</button>
+            </form>
+        </section>
+    </header>
+
+    <!-- //// Banner //// -->
+    <div class="">
+        <img src="./images/stores/banner.jpg" alt="" width="100%" height="350px">
+    </div>
+
+    <!-- //// Deal Section //// -->
+
+    <section class="container-fluid px-5 py-3 storePageDealSection">
+        <div><img src="./images/stores/deal1.jpg" alt="Deal"></div>
+        <div><img src="./images/stores/deal2.jpg" alt="Deal"></div>
+        <div><img src="./images/stores/deal3.jpg" alt="Deal"></div>
+    </section>
+
+
+    <!-- //// Section 1 //// -->
+
+    <section class="container-fluid mainSectionStoreForYou">
+        <section class="container-fluid categoriesMainSection ">
+            <section class="d-flex">
+                <h1 class="storeForYouHeading w-50">All Categories</h1>
+                <h5 class="w-50 text-right">See More ></h5>
+            </section>
+            <div class="d-flex flex-wrap categoriesContentContainer">
+                <div class="p-3"><a href="./category1.html">Men's Fashion</a></div>
+                <div class="p-3">Women's Fashion</div>
+                <div class="p-3">Kid's Fashion</div>
+                <div class="p-3">Electronic Devices</div>
+                <div class="p-3">Mobiles</div>
+                <div class="p-3">Toys & Games</div>
+                <div class="p-3">Health & Beauty</div>
+                <div class="p-3">Accessories</div>
+            </div>
+        </section>
+
+
+
+
+        <section class="container-fluid d-flex justify-content-between flex-wrap">
+            <h1 class="storeForYouHeading w-100">Stores For You</h1>
+            <div class="d-flex flex-column storeContent">
+                <section class="d-flex">
+                    <div class="storeLogo"><img src="./images/stores/store1.png" alt="Store"></div>
+                    <h5>Levi's</h5>
+                    <p class="ml-auto">Visit Store !</p>
+                </section>
+                <section class="d-flex justify-content-between storeContentProduct">
+                    <div><img src="./images/stores/product1.jpg" alt=""></div>
+                    <div><img src="./images/stores/product2.jpg" alt=""></div>
+                    <div><img src="./images/stores/product3.jpg" alt=""></div>
+                </section>
+            </div>
+            <div class="d-flex flex-column storeContent">
+                <section class="d-flex">
+                    <div class="storeLogo"><img src="./images/stores/store2.png" alt="Store"></div>
+                    <h5>Zara</h5>
+                    <p class="ml-auto">Visit Store !</p>
+                </section>
+                <section class="d-flex justify-content-between storeContentProduct">
+                    <div><img src="./images/stores/product1.jpg" alt=""></div>
+                    <div><img src="./images/stores/product2.jpg" alt=""></div>
+                    <div><img src="./images/stores/product3.jpg" alt=""></div>
+                </section>
+            </div>
+            <div class="d-flex flex-column storeContent">
+                <section class="d-flex">
+                    <div class="storeLogo"><img src="./images/stores/store3.png" alt="Store"></div>
+                    <h5>Thomann</h5>
+                    <p class="ml-auto">Visit Store !</p>
+                </section>
+                <section class="d-flex justify-content-between storeContentProduct">
+                    <div><img src="./images/stores/product1.jpg" alt=""></div>
+                    <div><img src="./images/stores/product2.jpg" alt=""></div>
+                    <div><img src="./images/stores/product3.jpg" alt=""></div>
+                </section>
+            </div>
+            <div class="d-flex flex-column storeContent">
+                <section class="d-flex">
+                    <div class="storeLogo"><img src="./images/stores/store1.png" alt="Store"></div>
+                    <h5>Levi's</h5>
+                    <p class="ml-auto">Visit Store !</p>
+                </section>
+                <section class="d-flex justify-content-between storeContentProduct">
+                    <div><img src="./images/stores/product1.jpg" alt=""></div>
+                    <div><img src="./images/stores/product2.jpg" alt=""></div>
+                    <div><img src="./images/stores/product3.jpg" alt=""></div>
+                </section>
+            </div>
+            <div class="d-flex flex-column storeContent">
+                <section class="d-flex">
+                    <div class="storeLogo"><img src="./images/stores/store2.png" alt="Store"></div>
+                    <h5>Zara</h5>
+                    <p class="ml-auto">Visit Store !</p>
+                </section>
+                <section class="d-flex justify-content-between storeContentProduct">
+                    <div><img src="./images/stores/product1.jpg" alt=""></div>
+                    <div><img src="./images/stores/product2.jpg" alt=""></div>
+                    <div><img src="./images/stores/product3.jpg" alt=""></div>
+                </section>
+            </div>
+            <div class="d-flex flex-column storeContent">
+                <section class="d-flex">
+                    <div class="storeLogo"><img src="./images/stores/store3.png" alt="Store"></div>
+                    <h5>Thomann</h5>
+                    <p class="ml-auto">Visit Store !</p>
+                </section>
+                <section class="d-flex justify-content-between storeContentProduct">
+                    <div><img src="./images/stores/product1.jpg" alt=""></div>
+                    <div><img src="./images/stores/product2.jpg" alt=""></div>
+                    <div><img src="./images/stores/product3.jpg" alt=""></div>
+                </section>
+            </div>
+            
+        </section>
+    </section>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+    crossorigin="anonymous"></script>
+
+</html>
