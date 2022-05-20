@@ -642,6 +642,187 @@ header a:hover {
 .storeContentProduct div {
   width: 30%;
 }
+.storeContentProduct span {
+  font-size: small;
+  color: #352b24;
+}
 .storeContent section div img {
   width: 100%;
+}
+
+
+
+
+
+
+/* //// Store => Categories Page //// */
+
+.categoriesHeading {
+  width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  box-shadow: 0px 0px 5px grey;
+}
+.categoriesHeading h2 {
+  color: #555;
+  font-weight: bold;
+}
+.categoriesHeading button {
+  padding: 6px;
+  font-size: 14px;
+  width: 120px;
+  border: none;
+  border-radius: 20px;
+  color: #e46d29;
+  box-shadow: 0px 0px 5px grey;
+  background-color: white;
+}
+.categoriesHeading button:hover {
+  background-color: #e46d29;
+  color: white;
+}
+.categoryBannerCards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 50px auto;
+}
+.categoryBannerCards > div {
+  width: 30%;
+}
+.categoryBannerCards img {
+  width: 100%;
+}
+.categoryMainSection {
+  background-color: #FAF7F5;
+  padding: 50px 0;
+}
+.categoryMainSection > h1 {
+  color: #555;
+  font-size: 26px;
+  max-width: 1180px;
+  margin: 0 auto 30px;
+  font-weight: bold;
+}
+.categoryProductsSection {
+  max-width: 1180px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+.categoriesCard {
+  background-color: white;
+  border-radius: 12px;
+  width: 100%;
+  box-shadow: 2px 2px 5px grey;
+  display: flex;
+  margin-bottom: 30px;
+}
+.categoriesCard > section {
+  width: 200px;
+  border-right: 1px solid #d6d6d6;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.categoriesCard section img {
+  width: 40px;
+  height: 40px;
+}
+.categoriesCard h5 {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 10px;
+  text-align: center;
+  color: #e46d29;
+}
+.categoriesCard > div {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+.categoriesCard > div > div {
+  width: 100px;
+  margin: 0 10px;
+}
+.categoriesCard > div img {
+  width: 100%;
+}
+.categoryButtonDiv {
+  padding: 20px 15px 20px 5px !important;
+}
+.categoryButtonDiv > button {
+  border: none;
+  border-radius: 15px;
+  font-size: 13px;
+  width: 140px;
+  padding: 8px;
+  box-shadow: 0px 0px 5px grey;
+  color: #e46d29;
+  background-color: white;
+}
+.categoryButtonDiv > button:hover {
+  background-color: #e46d29;
+  color: white;
+}
+.exclusiveOffer {
+  background: radial-gradient(#fff,#ffc7af);
+  padding: 30px 0;
+}
+.exclusiveOffer > section {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.exclusiveOffer > section > div {
+  display: flex;
+  align-items: center;
+}
+/* .exclusiveOffer > section > div > div { */
+  /* width: 50%; */
+  /* text-align: center; */
+/* } */
+.exclusiveOffer .offerDiv1 {
+  width: 40%;
+  text-align: center;
+}
+.exclusiveOffer .offerDiv2 {
+  width: 60%;
+  
+}
+.exclusiveOffer img {
+  width: 300px;
+}
+.exclusiveOffer h1 {
+  font-weight: bold;
+  color: #555;
+}
+.exclusiveOffer p {
+  font-size: 13px;
+  color: #555;
+}
+.exclusiveOffer button {
+  background-color: white;
+  border-radius: 15px;
+  padding: 6px;
+  width: 120px;
+  font-size: 13px;
+  border: 1px solid white;
+  box-shadow: 0px 0px 5px grey;
+}
+.exclusiveOffer button a {
+  color: #e46d29;
+}
+.exclusiveOffer button:hover {
+  border : 1px solid #e46d29;
+}
+.exclusiveOffer button a:hover {
+  text-decoration: none;
 }
