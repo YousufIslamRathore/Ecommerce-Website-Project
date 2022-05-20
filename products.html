@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Store Categories</title>
+    <title>Products</title>
 
     <!-- //// Bootstrap CSS //// -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
@@ -99,170 +99,149 @@
 
     <!-- //// Body //// -->
 
-    <section class="d-flex categoriesHeading">
-        <div>
-            <h2>Store ABC</h2>
-            <span>|</span>
-            <small>90% Positive Seller Ratings</small>
-            <span>|</span>
-        </div>
-        <div class="ml-auto">
-            <button>Follow+</button>
-        </div>
-
-    </section>
-
-    <section class="exclusiveOffer">
-        <section>
-            <div>
-                <div class="offerDiv1">
-                    <img src="./images/categories/exclusive.png" />
-                </div>
-                <div class="offerDiv2">
-                    <p>Exclusively Available on this Store</p>
-                    <h1>Smart Band 4</h1>
-                    <p class="des">The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3) AMOLED color full-touch
-                        display with adjustable brightness, so everything is clear as can be.
-                    </p>
-                    <button>
-                        <a href="">Buy Now</a>
-                    </button>
-                </div>
-            </div>
-        </section>
+    <section class="categoriesHeading" style="box-shadow: 0px 0px 5px #e46d29;">
+            <h2 class="text-center m-0" style="color: #e46d29;">Products Page</h2>
     </section>
 
 
-    <section>
-        <section class="categoryBannerCards">
+    <section class="productsOnSale">
+        <h2>Products on Sale</h2>
+        <section class="categoryBannerCards productsSaleCards">
             <div><img src="./images/categories/category-1.jpg" alt=""></div>
             <div><img src="./images/categories/category-3.jpg" alt=""></div>
             <div><img src="./images/categories/category-2.jpg" alt=""></div>
+            <div><img src="./images/categories/category-1.jpg" alt=""></div>
         </section>
     </section>
 
 
     <section class="categoryMainSection">
 
-        <h1>Categories</h1>
+        <h1>Products</h1>
 
-        <section class="categoryProductsSection">
-
-            <section class="categoriesCard">
-                <section>
-                    <img src="./images/categories/category1.png" alt="">
-                    <h5>Men's Accessories</h5>
-                </section>
+        <section class="products">
+            <div class="productMainDiv">
                 <div>
-                    <div><img src="./images/categories/products/product-10.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-12.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-3.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-4.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-6.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-7.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-9.jpg" alt=""></div>
+                    <img src="./images/categories/products/product-10.jpg" width="100%" height="250px" alt="">
                 </div>
-                <div class="categoryButtonDiv">
-                    <button onclick="productPageDirector()">View Products</button>
+                <div class="productFooter">
+                    <h5>Shoes</h5>
+                    <p>Rs. 3999 <s>Rs. 4499</s></p>
+                    <button onclick="detailPageDirector()">View Details!</button>
                 </div>
-            </section>
-
-
-            <section class="categoriesCard">
-                <section>
-                    <img src="./images/categories/category1.png" alt="">
-                    <h5>Men's Accessories</h5>
-                </section>
+            </div>
+            <div class="productMainDiv">
                 <div>
-                    <div><img src="./images/categories/products/product-10.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-12.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-3.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-4.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-6.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-7.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-9.jpg" alt=""></div>
+                    <img src="./images/categories/products/product-9.jpg" width="100%" height="250px" alt="">
                 </div>
-                <div class="categoryButtonDiv">
-                    <button onclick="productPageDirector()">View Products</button>
+                <div class="productFooter">
+                    <h5>Shoes</h5>
+                    <p>Rs. 3999 <s>Rs. 4499</s></p>
+                    <button onclick="detailPageDirector()">View Details!</button>
                 </div>
-            </section>
-
-            <section class="categoriesCard">
-                <section>
-                    <img src="./images/categories/category1.png" alt="">
-                    <h5>Men's Accessories</h5>
-                </section>
+            </div>
+            <div class="productMainDiv">
                 <div>
-                    <div><img src="./images/categories/products/product-10.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-12.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-3.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-4.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-6.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-7.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-9.jpg" alt=""></div>
+                    <img src="./images/categories/products/product-12.jpg" width="100%" height="250px" alt="">
                 </div>
-                <div class="categoryButtonDiv">
-                    <button onclick="productPageDirector()">View Products</button>
+                <div class="productFooter">
+                    <h5>Shoes</h5>
+                    <p>Rs. 3999 <s>Rs. 4499</s></p>
+                    <button onclick="detailPageDirector()">View Details!</button>
                 </div>
-            </section>
-
-            <section class="categoriesCard">
-                <section>
-                    <img src="./images/categories/category1.png" alt="">
-                    <h5>Men's Accessories</h5>
-                </section>
+            </div>
+            <div class="productMainDiv">
                 <div>
-                    <div><img src="./images/categories/products/product-10.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-12.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-3.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-4.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-6.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-7.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-9.jpg" alt=""></div>
+                    <img src="./images/categories/products/product-9.jpg" width="100%" height="250px" alt="">
                 </div>
-                <div class="categoryButtonDiv">
-                    <button onclick="productPageDirector()">View Products</button>
+                <div class="productFooter">
+                    <h5>Shoes</h5>
+                    <p>Rs. 3999 <s>Rs. 4499</s></p>
+                    <button onclick="detailPageDirector()">View Details!</button>
                 </div>
-            </section>
-
-            <section class="categoriesCard">
-                <section>
-                    <img src="./images/categories/category1.png" alt="">
-                    <h5>Men's Accessories</h5>
-                </section>
+            </div>
+            <div class="productMainDiv">
                 <div>
-                    <div><img src="./images/categories/products/product-10.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-12.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-3.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-4.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-6.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-7.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-9.jpg" alt=""></div>
+                    <img src="./images/categories/products/product-4.jpg" width="100%" height="250px" alt="">
                 </div>
-                <div class="categoryButtonDiv">
-                    <button onclick="productPageDirector()">View Products</button>
+                <div class="productFooter">
+                    <h5>Shoes</h5>
+                    <p>Rs. 3999 <s>Rs. 4499</s></p>
+                    <button onclick="detailPageDirector()">View Details!</button>
                 </div>
-            </section>
-
-            <section class="categoriesCard">
-                <section>
-                    <img src="./images/categories/category1.png" alt="">
-                    <h5>Men's Accessories</h5>
-                </section>
+            </div>
+            <div class="productMainDiv">
                 <div>
-                    <div><img src="./images/categories/products/product-10.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-12.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-3.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-4.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-6.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-7.jpg" alt=""></div>
-                    <div><img src="./images/categories/products/product-9.jpg" alt=""></div>
+                    <img src="./images/categories/products/product-6.jpg" width="100%" height="250px" alt="">
                 </div>
-                <div class="categoryButtonDiv">
-                    <button onclick="productPageDirector()">View Products</button>
+                <div class="productFooter">
+                    <h5>Shoes</h5>
+                    <p>Rs. 3999 <s>Rs. 4499</s></p>
+                    <button onclick="detailPageDirector()">View Details!</button>
                 </div>
-            </section>
+            </div>
+            <div class="productMainDiv">
+                <div>
+                    <img src="./images/categories/products/product-7.jpg" width="100%" height="250px" alt="">
+                </div>
+                <div class="productFooter">
+                    <h5>Shoes</h5>
+                    <p>Rs. 3999 <s>Rs. 4499</s></p>
+                    <button onclick="detailPageDirector()">View Details!</button>
+                </div>
+            </div>
+            <div class="productMainDiv">
+                <div>
+                    <img src="./images/categories/products/product-12.jpg" width="100%" height="250px" alt="">
+                </div>
+                <div class="productFooter">
+                    <h5>Shoes</h5>
+                    <p>Rs. 3999 <s>Rs. 4499</s></p>
+                    <button onclick="detailPageDirector()">View Details!</button>
+                </div>
+            </div>
+            <div class="productMainDiv">
+                <div>
+                    <img src="./images/categories/products/product-10.jpg" width="100%" height="250px" alt="">
+                </div>
+                <div class="productFooter">
+                    <h5>Shoes</h5>
+                    <p>Rs. 3999 <s>Rs. 4499</s></p>
+                    <button onclick="detailPageDirector()">View Details!</button>
+                </div>
+            </div>
+            <div class="productMainDiv">
+                <div>
+                    <img src="./images/categories/products/product-10.jpg" width="100%" height="250px" alt="">
+                </div>
+                <div class="productFooter">
+                    <h5>Shoes</h5>
+                    <p>Rs. 3999 <s>Rs. 4499</s></p>
+                    <button onclick="detailPageDirector()">View Details!</button>
+                </div>
+            </div>
+            <div class="productMainDiv">
+                <div>
+                    <img src="./images/categories/products/product-10.jpg" width="100%" height="250px" alt="">
+                </div>
+                <div class="productFooter">
+                    <h5>Shoes</h5>
+                    <p>Rs. 3999 <s>Rs. 4499</s></p>
+                    <button onclick="detailPageDirector()">View Details!</button>
+                </div>
+            </div>
+            <div class="productMainDiv">
+                <div>
+                    <img src="./images/categories/products/product-10.jpg" width="100%" height="250px" alt="">
+                </div>
+                <div class="productFooter">
+                    <h5>Shoes</h5>
+                    <p>Rs. 3999 <s>Rs. 4499</s></p>
+                    <button onclick="detailPageDirector()">View Details!</button>
+                </div>
+            </div>
         </section>
+
     </section>
 
 
