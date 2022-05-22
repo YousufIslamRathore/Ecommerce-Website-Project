@@ -1176,4 +1176,77 @@ header a:hover {
 .orderSummarySection > div > button:hover {
   background: linear-gradient(to left, #e46d29, #e44329);
   box-shadow: 2px 2px 5px #757575;
+} 
+
+/* //// Confirm CheckOut //// */
+.confirmDiv1 {
+  width: 60%;
+}
+.confirmDiv2 {
+  width: 20%;
+}
+.confirmDiv3 {
+  width: 20%;
+}
+.confirmDiv3 > p {
+  width: 100%;
+  text-align: right;
+}
+.orderStoreNameDiv > h6 {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: #555;
+}
+.confirmOrderNameDiv {
+  padding: 10px 15px !important;
+  background-color: #EFF0F5;
+  border-radius: 15px 15px 0 0;
+  justify-content: space-between;
+}
+.confirmOrderNameDiv p {
+  margin: 0;
+  font-size: 11px;
+  color: #757575;
+}
+.confirmOrderNameDiv p b {
+  font-size: 12px;
+  color: black;
+  margin-left: 5px;
+}
+.confirmDeliveryButton {
+  flex-direction: column;
+  width: 50%;
+  margin-bottom: 10px;
+}
+.confirmDeliveryButton p {
+  color: #555;
+  font-size: 12px;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.confirmDeliveryButton > div {
+  border: 1px solid #e46d29;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #e46e291a;
+  width: 60%;
+}
+.confirmDeliveryButton > div > div {
+  padding-left: 10px;
+}
+.confirmDeliveryButton i {
+  color: #e46d29;
+  font-size: 18px;
+}
+.confirmDeliveryButton p {
+  font-size: 14px;
+  color: black;
+}
+.confirmDeliveryButton small {
+  color: #757575;
+}
+.confirmOrderDetailEnd {
+  padding: 10px;
 }

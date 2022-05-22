@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- //// Bootstrap CSS //// -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <!-- //// CSS //// -->
+    <link rel="stylesheet" href="./style/style.css">
+
+    <!-- //// Font Awesome //// -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+</head>
+
+<body>
+
+    <!-- ///// Navbar ///// -->
+
+    <header>
+        <section class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand font-weight-bold navbarLogo" href="#">Website Logo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mr-4">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Profile</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="./storesForYou.html">Store</a>
+
+                            <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-expanded="false">
+                                Store
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item navbarDropdownOptions" href="#">Levis</a>
+                                <a class="dropdown-item navbarDropdownOptions" href="#">Rad</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item navbarDropdownOptions" href="#">TeeFit</a>
+                            </div> -->
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-expanded="false">
+                                Categories
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item navbarDropdownOptions" href="#">Men's Fashion</a>
+                                <a class="dropdown-item navbarDropdownOptions" href="#">Women's Fashion</a>
+                                <!-- <div class="dropdown-divider"></div> -->
+                                <a class="dropdown-item navbarDropdownOptions" href="#">Kid's Fashion</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- <form class="form-inline my-2 my-lg-0"> -->
+                    <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+                    <!-- <button class="btn navbarButtons">Log In</button>
+                    <button class="btn navbarButtons">Sign Up</button> -->
+                    <!-- </form> -->
+                    <button class="navbarButtons">Login / Register</button>
+                </div>
+            </nav>
+            <!-- </section>
+        <section class="container-fluid navbarSearchSection">
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2 searchInputField" size="40" type="search" placeholder="Search"
+                    aria-label="Search">
+                <button class="btn navbarButtons navbarSearchBtn">Search</button>
+            </form>
+        </section> -->
+    </header>
+
+
+    <!-- //// Body //// -->
+
+    <section class="checkOutMainSection">
+        <div>
+            <section class="ordersContainer">
+                <div class="selectAllOrders">
+                    <div class="confirmDiv1">
+                        <p>4 ITEMS</p>
+                    </div>
+                    <div class="confirmDiv2">
+                        <p>PRICE</p>
+                    </div>
+                    <div class="confirmDiv3">
+                        <p>QUANTITY</p>
+                    </div>
+                </div>
+
+                <div class="orderDiv">
+                    <div class="border-bottom orderStoreNameDiv confirmOrderNameDiv">
+                        <h6>Package 1 of 4</h6>
+                        <p>Shipped By <b>ABC Name</b></p>
+                    </div>
+                    <div class="confirmDeliveryButton">
+                        <p>Delivery Option</p>
+                        <div class="d-flex mr-auto">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <div>
+                                <p>Rs. 109</p>
+                                <small>Home Delivery <br> Get by 24-28 May</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="confirmOrderDetailEnd">
+                        <div><img src="" alt=""></div>
+                    </div>
+                    <!-- <div>
+                        <div class="orderCardImgDiv"><img src="./images/categories/products/product-9.jpg" alt="" /></div>
+                        <div class="orderCardDetails">
+                            <p>Stainless Steel Wrist Watch</p>
+                            <small>No Brand, Color Family: Black</small>
+                        </div>
+                        <div class="ml-auto orderCardPriceDiv">
+                            <p>Rs. 3,999</p>
+                            <small><s>Rs. 4,999</s></small>
+                            <small>-20%</small>
+                            <div>
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-regular fa-trash-can"></i>
+                            </div>
+                        </div>
+                        <div class="orderCardIncDec">
+                            <p><small>-</small><span>1</span><small>+</small></p>
+                        </div>
+                    </div> -->
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- //// Footer //// -->
+
+    <footer>
+        <section class="footer1">
+            <div class="footer1div1">
+                <h3>Download Our App</h3>
+                <div>
+                    <img src="./images/footer/1.png" width="150" alt="">
+                    <img src="./images/footer/2.png" width="150" alt="">
+                </div>
+            </div>
+            <div class="footer1div2">
+                <h3>Follow Us</h3>
+                <div class="d-flex">
+                    <div><i class="fa-brands fa-youtube"></i></div>
+                    <div><i class="fa-brands fa-twitter"></i></div>
+                    <div><i class="fa-brands fa-linkedin"></i></div>
+                    <div><i class="fa-brands fa-instagram"></i></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer2">
+            <section>
+                <div class="footer2div1">
+                    <img src="./images/footer/logoFooter.png" width="150px" alt="">
+                    <button style="margin-top: 15px;">Register Now</button>
+                    <button>Become A Joey</button>
+                    <p>100 - 16 Four Seasons Pl
+                        <br> Etobicoke, M9B 6E5 <br> <span>(855) 596-1833 <br> info@joeyco.com</span>
+                    </p>
+                </div>
+                <div class="footer2div2">
+                    <h4>Bussiness Solutions</h4>
+                    <div><a href="javascript:void(0)">Retail to Customer</a></div>
+                    <div><a href="javascript:void(0)">Home Delivery</a></div>
+                    <div><a href="javascript:void(0)">Returns & Reverse Logistics</a></div>
+                    <div><a href="javascript:void(0)">Local Same-Day</a></div>
+                    <div><a href="javascript:void(0)">Scheduled Delivery</a></div>
+                    <div><a href="javascript:void(0)">Same Day</a></div>
+                    <div><a href="javascript:void(0)">On-Demand Delivery</a></div>
+                    <div><a href="javascript:void(0)">Warehouse to Consumer</a></div>
+                    <div><a href="javascript:void(0)">Mid mile and Last mile</a></div>
+                    <div><a href="javascript:void(0)">On-Demanding Warehousing</a></div>
+                    <div><a href="javascript:void(0)">Big and Bulky</a></div>
+                </div>
+                <div class="footer2div2">
+                    <h4>Industries</h4>
+                    <div><a href="javascript:void(0)">Grocery</a></div>
+                    <div><a href="javascript:void(0)">Retail & Luxury</a></div>
+                    <div><a href="javascript:void(0)">eCommerce</a></div>
+                    <div><a href="javascript:void(0)">Restaurants</a></div>
+                    <div><a href="javascript:void(0)">Pharmacy</a></div>
+                    <div><a href="javascript:void(0)">Flowers</a></div>
+                    <div><a href="javascript:void(0)">Apparel</a></div>
+                </div>
+                <div class="footer2div2">
+                    <h4>About JoeyCo</h4>
+                    <div><a href="javascript:void(0)">How we are</a></div>
+                    <div><a href="javascript:void(0)">What we do</a></div>
+                    <div><a href="javascript:void(0)">How it works</a></div>
+                    <div><a href="javascript:void(0)">FAQs</a></div>
+                    <div><a href="javascript:void(0)">Contact</a></div>
+                    <div><a href="javascript:void(0)">Careers</a></div>
+                </div>
+            </section>
+            <div>
+                <span>&copy; 2022 JoeyCo</span>
+                <span class="divider">|</span>
+                <a href="javascript:void(0)">Privacy Policy</a>
+                <span class="divider">|</span>
+                <a href="javascript:void(0)">Terms of Use</a>
+            </div>
+        </section>
+    </footer>
+
+    <!-- //// Add to Cart Show Button //// -->
+
+    <section class="addToCartPageDirector">
+        <div>
+            <i class="fa-solid fa-cart-shopping addToCartIcon"></i>
+        </div>
+    </section>
+
+</body>
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+    crossorigin="anonymous"></script>
+
+</html>
