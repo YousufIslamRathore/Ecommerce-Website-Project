@@ -109,24 +109,17 @@ header a:hover {
   width: 150px;
   font-weight: bold;
   font-size: 18px;
-  background: linear-gradient(
-    to right,
-    #e46d29,
-    #e44329
-  );
+  background: linear-gradient(to right, #e46d29, #e44329);
 }
 .homePageTopSection > section > button:hover {
-  background: linear-gradient(
-    to left,
-    #e46d29,
-    #e44329
-  );
+  background: linear-gradient(to left, #e46d29, #e44329);
 }
 .homePageTopSection > section > img {
   width: 90%;
 }
-.whyUsSection, .partnersSection {
-  background-color: #FAF7F5;
+.whyUsSection,
+.partnersSection {
+  background-color: #faf7f5;
   padding: 50px 30px 50px 30px;
   margin-bottom: 50px;
 }
@@ -254,7 +247,7 @@ header a:hover {
 }
 
 .mapHomePageSection {
-  background-color: #FAF7F5;
+  background-color: #faf7f5;
   padding: 50px 0;
 }
 .mapHomePageSection > section {
@@ -290,9 +283,6 @@ header a:hover {
   width: 85%;
 }
 
-
-
-
 /* //// Sign Up Page //// */
 
 .signUpMainSection {
@@ -311,7 +301,6 @@ header a:hover {
   padding: 40px 80px;
   background-color: white;
   border-radius: 20px 20px 0 0;
-
 }
 .signUpMainSection > main > section > div {
   margin-bottom: 30px;
@@ -319,7 +308,7 @@ header a:hover {
 .signUpMainSection > main > section h3 {
   font-size: 26px;
   color: #e46d29;
-  font-weight: bold ;
+  font-weight: bold;
   margin-bottom: 14px;
   text-align: center;
 }
@@ -334,8 +323,9 @@ header a:hover {
 }
 .signUpInputs > form {
   text-align: center;
-} 
-.signUpInputs input, .signUpInputs select {
+}
+.signUpInputs input,
+.signUpInputs select {
   padding: 15px;
   border-color: #e46d29;
   background-color: #f6f2ef;
@@ -358,18 +348,10 @@ header a:hover {
   width: 150px;
   font-weight: bold;
   font-size: 14px;
-  background: linear-gradient(
-    to right,
-    #e46d29,
-    #e44329
-  );
+  background: linear-gradient(to right, #e46d29, #e44329);
 }
 .signUpInputs button:hover {
-  background: linear-gradient(
-    to left,
-    #e46d29,
-    #e44329
-  );
+  background: linear-gradient(to left, #e46d29, #e44329);
 }
 
 .signUpMainSection > main > div {
@@ -385,7 +367,7 @@ header a:hover {
   margin-left: 20px;
   background-color: white;
   border-radius: 12px;
-  box-shadow: 0px 0px 2px #B4A49B;
+  box-shadow: 0px 0px 2px #b4a49b;
   border: none;
   padding: 11px 30px;
   font-size: 14px;
@@ -396,8 +378,6 @@ header a:hover {
   background-color: #e46d29;
   color: white;
 }
-
-
 
 /* //// Footer //// */
 
@@ -467,7 +447,7 @@ header a:hover {
   font-size: 12px;
   margin: 0px 0px 12px;
   padding: 10px 0px 0px;
-  color: #B4A49B;
+  color: #b4a49b;
 }
 .footer2div1 > p > span {
   color: #e46d29;
@@ -491,10 +471,10 @@ header a:hover {
   color: #e46d29;
 }
 .footer2 > div {
-  border-top: 1px solid #B4A49B;
+  border-top: 1px solid #b4a49b;
   padding-top: 30px;
   margin: 30px auto 0;
-  color: #B4A49B;
+  color: #b4a49b;
   max-width: 1110px;
   font-size: 15px;
   text-align: center;
@@ -502,18 +482,6 @@ header a:hover {
 .footer2 > div .divider {
   margin: 0px 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .homePageCarousel button span {
   background-color: black !important;
@@ -662,11 +630,6 @@ header a:hover {
   width: 100%;
 }
 
-
-
-
-
-
 /* //// Store => Categories Page //// */
 
 .categoriesHeading {
@@ -707,7 +670,7 @@ header a:hover {
   width: 100%;
 }
 .categoryMainSection {
-  background-color: #FAF7F5;
+  background-color: #faf7f5;
   padding: 50px 0;
 }
 .categoryMainSection > h1 {
@@ -723,7 +686,7 @@ header a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
 .categoriesCard {
   background-color: white;
@@ -784,7 +747,7 @@ header a:hover {
   color: white;
 }
 .exclusiveOffer {
-  background: radial-gradient(#fff,#ffc7af);
+  background: radial-gradient(#fff, #ffc7af);
   padding: 30px 0;
 }
 .exclusiveOffer > section {
@@ -803,7 +766,6 @@ header a:hover {
 }
 .exclusiveOffer .offerDiv2 {
   width: 60%;
-  
 }
 .exclusiveOffer img {
   width: 300px;
@@ -829,13 +791,11 @@ header a:hover {
   color: #e46d29;
 }
 .exclusiveOffer button:hover {
-  border : 1px solid #e46d29;
+  border: 1px solid #e46d29;
 }
 .exclusiveOffer button a:hover {
   text-decoration: none;
 }
-
-
 
 /* //// Products Page //// */
 
@@ -877,13 +837,13 @@ header a:hover {
   background-color: white;
   height: 375px;
   transition: transform 0.5s;
-  border: 1px solid #B4A49B;
+  box-shadow: 0px 0px 5px grey;
+  /* border: 1px solid #B4A49B; */
   margin: 0px 15px 20px 0;
 }
 .productMainDiv:hover {
   transform: translateY(-5px);
-  box-shadow: 0px 0px 5px grey;
-
+  box-shadow: 0px 0px 10px grey;
 }
 .productMainDiv img {
   border-radius: 5px;
@@ -957,7 +917,7 @@ header a:hover {
   margin-bottom: 15px;
 }
 .productDetailsContent > h5 > s {
-  color: #FF0000;
+  color: #ff0000;
   font-weight: normal;
   font-size: 14px;
 }
@@ -968,11 +928,11 @@ header a:hover {
   width: 30px;
   padding: 2px;
   background-color: #d6d6d6;
-  text-align: center; 
+  text-align: center;
   cursor: pointer;
 }
 .productDetailsContent > p > .counterSpan {
-  background-color: #FAF7F5;
+  background-color: #faf7f5;
   width: 50px;
   cursor: text;
 }
@@ -985,14 +945,9 @@ header a:hover {
 }
 .productDetailsContent > button:hover {
   box-shadow: 0px 0px 5px grey;
-  background: linear-gradient(
-    to left,
-    #e46d29,
-    #e44329
-  );
-  color: white;  
+  background: linear-gradient(to left, #e46d29, #e44329);
+  color: white;
 }
-
 .productDetailsContent > h6 {
   color: #555;
   font-size: 16px;
@@ -1003,6 +958,222 @@ header a:hover {
   color: #555;
   font-size: 15px;
   margin-bottom: 5px;
-
 }
 
+/* //// Add to Cart Fixed Icon //// */
+
+.addToCartPageDirector {
+  position: fixed;
+  right: 0;
+  top: 75%;
+  border-radius: 50% 0 0 50%;
+  box-shadow: -2px 0px 5px grey;
+  padding: 25px 30px;
+  background-color: #e46d29;
+  cursor: pointer;
+  transition: height 0.5s;
+}
+.addToCartIcon {
+  font-size: 24px;
+  color: white;
+}
+.addToCartPageDirector:hover {
+  width: 100px;
+}
+
+/* //// Checkout First Page //// */
+
+.checkOutMainSection {
+  margin: 50px 0;
+  background-color: #f4f4f4;
+}
+.checkOutMainSection > div {
+  max-width: 1188px;
+  margin: 0 auto;
+  display: flex;
+}
+.ordersContainer {
+  width: 66%;
+  padding: 30px 10px;
+}
+.ordersContainer > div {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px #757575;
+  margin-bottom: 25px;
+}
+.selectAllOrders {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.selectAllOrders > div {
+  display: flex;
+  align-items: center;
+}
+.selectAllOrders input {
+  margin-right: 15px;
+}
+.selectAllOrders p {
+  margin: 0;
+  color: #757575;
+  font-size: 12px;
+}
+.selectAllOrders i {
+  margin-right: 6px;
+}
+.orderDiv > div {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+.orderStoreNameDiv {
+  padding-bottom: 20px !important;
+}
+.orderStoreNameDiv i {
+  color: #b4a49b;
+}
+.ordersContainer input {
+  width: 18px;
+  height: 18px;
+}
+.orderDiv h5 {
+  margin: 0 8px 0 16px;
+  font-size: 17px;
+}
+.orderCardImgDiv {
+  margin: 0 16px;
+}
+.orderCardImgDiv img {
+  width: 100px;
+  height: 100px;
+}
+.orderCardDetails {
+  align-self: flex-start;
+}
+.orderCardDetails p {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: #555;
+}
+.orderCardDetails small {
+  color: #757575;
+  font-size: 12px;
+}
+.orderCardPriceDiv {
+  padding-left: 10px;
+  width: 150px;
+  align-self: flex-start;
+}
+.orderCardPriceDiv p {
+  color: #e46d29;
+  margin-bottom: 4px;
+}
+.orderCardPriceDiv small {
+  display: block;
+  color: black;
+  margin-bottom: 5px;
+}
+.orderCardPriceDiv small s {
+  color: #757575;
+}
+.orderCardPriceDiv i {
+  color: #757575;
+  margin-right: 8px;
+  font-size: 16px;
+}
+.orderCardIncDec {
+  padding-right: 30px;
+  align-self: flex-start;
+}
+.orderCardIncDec p {
+  display: flex;
+}
+.orderCardIncDec small {
+  display: block;
+  background-color: #EFF0F5;
+  padding: 4px;
+  width: 30px;
+  text-align: center;
+  font-size: 13px;
+  color: #555;
+}
+.orderCardIncDec span {
+  display: block;
+  background-color: white;
+  width: 40px;
+  color: #757575;
+  text-align: center;
+  font-size: 14px;
+  padding: 4px;
+}
+
+.orderSummarySection {
+  width: 33%;
+  padding: 30px 10px;
+}
+.orderSummarySection > div {
+  background-color: white;
+  box-shadow: 0px 0px 5px #757575;
+  border-radius: 15px;
+  padding: 15px;
+}
+.orderSummarySection h1 {
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+.orderSummarySection > div > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 13px;
+}
+.orderSummarySection p {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+.OSSgreyDetail {
+  color: #757575;
+  font-size: 13px !important;
+}
+.orderSummarySection input {
+  font-size: 14px;
+  padding: 6px 12px;
+  width: 100%;
+  margin-right: 5px;
+  outline: none;
+  color: #757575;
+}
+.orderSummarySection > div > div > button {
+  background-color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 4px;
+  width: 100px;
+  border: none;
+  /* border: 1px solid white; */
+  box-shadow: 0px 0px 5px #757575;
+  color: #e46d29;
+}
+.orderSummarySection > div > div > button:hover {
+  box-shadow: 0px 0px 10px #e46d29;
+  /* border: 1px solid #e46d29; */
+  text-decoration: underline;
+}
+.orderSummarySection h5 {
+  color: #e46d29;
+  font-size: 17px;
+}
+.orderSummarySection > div > button {
+  background: linear-gradient(to right, #e46d29, #e44329);
+  width: 100%;
+  padding: 8px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px grey;
+}
+.orderSummarySection > div > button:hover {
+  background: linear-gradient(to left, #e46d29, #e44329);
+  box-shadow: 2px 2px 5px #757575;
+}
