@@ -301,7 +301,7 @@
                         <span>Total:</span>
                         <h5>Rs. 3,999</h5>
                     </div>
-                    <button>Proceed to Pay</button>
+                    <button type="button" data-toggle="modal" data-target="#proceedToPay">Proceed to Pay</button>
                 </div>
             </section>
         </div>
@@ -391,6 +391,21 @@
         </div>
     </section>
 
+    <!-- //// Proceed to Pay Modal //// -->
+
+    <div class="modal fade" id="proceedToPay" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content proceedToPayModalContent">
+            <div class="modal-body">
+                <h1>Your Order has been placed!</h1>
+                <h2>Thanks for Shopping!</h2>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="mx-auto" data-dismiss="modal">OK</button>
+            </div>
+          </div>
+        </div>
+      </div>
 </body>
 <script src="./scripts/app.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"

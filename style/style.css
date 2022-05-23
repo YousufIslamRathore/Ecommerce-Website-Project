@@ -1361,3 +1361,29 @@ header a:hover {
 .activeInput {
   border-bottom: 1px solid #757575 !important;
 }
+
+.proceedToPayModalContent h1 {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px auto;
+  color: #e46d29;
+}
+.proceedToPayModalContent h2 {
+  font-size: 18px;
+  color: #555;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.proceedToPayModalContent button {
+  background: linear-gradient(to right, #e46d29, #e44329);
+  border: none;
+  box-shadow: 0px 0px 5px #757575;
+  width: 150px;
+  color: white;
+  padding: 5px;
+}
+.proceedToPayModalContent button:hover {
+  background: linear-gradient(to left, #e46d29, #e44329);
+}
