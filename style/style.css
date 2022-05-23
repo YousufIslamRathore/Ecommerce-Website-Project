@@ -1179,6 +1179,9 @@ header a:hover {
 } 
 
 /* //// Confirm CheckOut //// */
+.confirmOrderContainer {
+  box-shadow: 0px -2px 5px #b4a49b !important;
+}
 .confirmDiv1 {
   width: 60%;
 }
@@ -1217,7 +1220,6 @@ header a:hover {
 .confirmDeliveryButton {
   flex-direction: column;
   width: 50%;
-  margin-bottom: 10px;
 }
 .confirmDeliveryButton p {
   color: #555;
@@ -1229,12 +1231,14 @@ header a:hover {
 .confirmDeliveryButton > div {
   border: 1px solid #e46d29;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #e46e291a;
   width: 60%;
+  height: 80px;
 }
 .confirmDeliveryButton > div > div {
   padding-left: 10px;
+
 }
 .confirmDeliveryButton i {
   color: #e46d29;
@@ -1245,8 +1249,115 @@ header a:hover {
   color: black;
 }
 .confirmDeliveryButton small {
+  display: block;
   color: #757575;
+  line-height: 1rem !important;
 }
 .confirmOrderDetailEnd {
-  padding: 10px;
+  padding: 0px 10px 10px 15px !important; 
+  display: flex;
+  width: 59%;
+}
+.confirmOrderDetailEnd > div {
+  width: 100px;
+  height: 100px;
+}
+.confirmOrderDetailEnd img {
+  width: 100%;
+  height: 100%;
+}
+.confirmOrderDivContent {
+  margin: 0px 15px;
+}
+.confirmOrderPriceDiv {
+  width: 20%;
+}
+.confirmOrderQtyDiv {
+  width: 20%;
+  text-align: right;
+  align-self: flex-start;
+}
+.confirmOrderQtyDiv > p {
+  color: #757575;
+  font-size: 14px;
+}
+.confirmOrderQtyDiv > p > b {
+  font-weight: normal;
+  font-size: 16px;
+  color: black;
+}
+.confirmSummarySection {
+  width: 33%;
+  padding: 30px 10px; 
+}
+.confirmSummarySection > div {
+  background-color: white;
+  box-shadow: 0px 0px 5px #757575;
+  padding: 15px;
+  border-radius: 15px;
+}
+.confirmSummarySection h1 {
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+.confirmSummarySection label {
+  display: flex;
+  align-items: center;
+}
+.confirmSummarySection label input,
+.confirmSummarySection label textarea {
+  width: 100%;
+  margin-right: 5px;
+  border: none;
+  padding: 3px 5px; 
+  font-size: 13px;
+  background-color: white;
+  color: #555 !important;
+  outline: none;
+}
+.confirmSummarySection label .titleInput {
+  font-size: 14px;
+  font-weight: bold;
+}
+.confirmSummarySection label textarea {
+  font-weight: normal;
+  font-size: 12px;
+  height: 60px;
+  border: none;
+}
+.confirmSummarySection label i {
+  color: #e46d29;
+  margin-right: 5px;
+  font-size: 14px;
+}
+.confirmSummarySection label button {
+  color: blue;
+  background-color: white;
+  border: none;
+  font-size: 13px;
+}
+.confirmSummarySection label button:hover {
+  text-decoration: underline;
+}
+.confirmSummarySection form {
+  margin-bottom: 20px;
+}
+.shippingBillingDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.shippingBillingDiv span {
+  font-size: 12px;
+  color: #757575;
+  margin: 0 5px 0 0 ;
+}
+.shippingBillingDiv p {
+  font-size: 14px;
+  color: black;
+  margin: 0;
+}
+.activeInput {
+  border-bottom: 1px solid #757575 !important;
 }
