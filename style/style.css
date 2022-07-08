@@ -1387,3 +1387,127 @@ header a:hover {
 .proceedToPayModalContent button:hover {
   background: linear-gradient(to left, #e46d29, #e44329);
 }
+
+
+/* //// Manage Account //// */
+.manageAccountMainSection {
+  margin: 50px 0;
+  background-color: #f4f4f4;
+}
+.manageAccountMainSection > div {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.manageAccountMainSection h2 {
+  font-size: 20px;
+  color: #555;
+  margin: 15px 0;
+}
+.personalProfile {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px #757575;
+  margin-bottom: 25px;
+  padding: 16px;
+  min-height: 215px;
+  width: 29%;
+}
+.personalProfile p {
+  color: #424242;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+.personalProfileHeader {
+  color: #212121;
+  font-size: 15px !important;
+  margin-bottom: 20px !important;
+}
+.dividerDiv {
+  color: #DADADA;
+}
+.editOption {
+  color: #1A9CB7 !important;
+  font-size: 11px;
+}
+p[class~="editOption"] {
+  margin-top: 25px;
+  font-size: 13px;
+}
+.personalProfile2 {
+  margin-left: 20px;
+  width: 69%;
+  position: relative;
+  display: flex;
+}
+.personalProfile2 > section {
+  width: 50%;
+}
+.rightSectionPersonalProfile {
+  margin-top: 43px;
+  padding-left: 16px;
+}
+.defaultPara {
+  color: #757575 !important;
+  font-size: 11px !important;
+  margin-bottom: 15px !important;
+}
+.manageAccountUserName {
+  color: #212121 !important;
+  font-weight: bold;
+  margin-bottom: 10px !important;
+}
+.addressDiv p {
+  font-size: 12px !important;
+  margin-bottom: 4px !important;
+}
+.separatorLineDiv {
+  position: absolute;
+  height: 90%;
+  top: 11px;
+  left: 50%;
+  border-left: 1px solid #DADADA;
+}
+.recentOrdersMainContainer {
+  min-height: auto;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+.recentOrdersMainContainer .personalProfileHeader {
+  margin-bottom: 16px !important;
+  padding-left: 16px !important;
+}
+.recentOrdersMainContainer table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.recentOrdersMainContainer tr {
+  width: 100%;
+  border-bottom: 2px solid #eff0f5;
+}
+.ordersFirstRow {
+  background-color: #FAFAFA;
+}
+.recentOrdersMainContainer table tr td {
+  font-size: 14px;
+  color: #212121;
+  padding: 16px 20px;
+  width: 215px;
+}
+.ordersFirstRow td {
+  color: #757575 !important;
+}
+.ordersItems {
+  width: 310px !important;
+}
+.ordersTotal {
+  text-align: right;
+}
+.ordersEmpty {
+  width:  auto !important;
+  text-align: right;
+  color: #1A9CB7 !important;
+}
